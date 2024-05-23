@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+cout<<"Calculation ";    
+int a;    
+cout<<"enter a number";    
+cin>>a;    
+int b;    
+cout<<"enter another number";    
+cin>>b;    
+int c=a+b ;   
+int d=a-b;
+int e=a*b;
+int f=a/b;
+int g=a*b;
+int h=a+b-a;
+cout<<"\n The output is \n"<<c;    
+cout<<"\n The output is \n"<<d;        
+cout<<"\n The output is \n"<<e;    
+cout<<"\n The output is \n"<<f;   
+cout<<"\n The output is \n"<<g;    
+cout<<"\n The output is \n"<<h;    
+  
+return 0;
+}
